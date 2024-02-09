@@ -1,25 +1,35 @@
-import logo from './logo.svg';
+import ReactDOM from 'react-dom/client';
+import Question from "./Question";
 import './App.css';
+import { useState } from 'react';
+import heart from './assets/heart-bemine.svg'
 
 function App() {
+  const [name, setName] = useState('');
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <div className='flex flex-col app'>
+        <div id='view' className='flex flex-col'>
+          <img src={heart} style={{ width: '250px' }} />
+          <input type="text" placeholder='What do I call you?' id='nameInput' value={name} onChange={e => setName(e.target.value)} />
+          <button
+            onClick={() => {
+              console.log(name)
+              const root = ReactDOM.createRoot(document.getElementById('view'));
+              root.render(<Question name={name} />);
+
+            }}
+            className='btn btn-pink'
+          >Submit</button>
+        </div>
+      </div>
+    </>
   );
 }
 
 export default App;
+
+
+
+
