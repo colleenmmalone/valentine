@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/valentine/static/css/main.4a2dbf68.css",
-    "main.js": "/valentine/static/js/main.84aafa36.js",
-    "static/media/heart-bemine.svg": "/valentine/static/media/heart-bemine.31153546d490713307f9efd97ea68e60.svg",
-    "static/media/heart-uraqt.svg": "/valentine/static/media/heart-uraqt.63cb03d1f03c5449dedcb27e33ac9947.svg",
-    "static/media/heart-xoxo.svg": "/valentine/static/media/heart-xoxo.39def8c551376601b93bb2728140558c.svg",
+    "main.js": "/valentine/static/js/main.1294bee6.js",
+    "static/media/heart-bemine.svg": "/valentine/static/media/heart-bemine.83c8542257b99d1304a3fefd47f8dd1a.svg",
+    "static/media/heart-uraqt.svg": "/valentine/static/media/heart-uraqt.86aed5ffe8150d13573ab0d6be8fdc20.svg",
+    "static/media/heart-xoxo.svg": "/valentine/static/media/heart-xoxo.a716febb41e03a70b5a2c34e3b7487d5.svg",
     "index.html": "/valentine/index.html",
     "main.4a2dbf68.css.map": "/valentine/static/css/main.4a2dbf68.css.map",
-    "main.84aafa36.js.map": "/valentine/static/js/main.84aafa36.js.map"
+    "main.1294bee6.js.map": "/valentine/static/js/main.1294bee6.js.map"
   },
   "entrypoints": [
     "static/css/main.4a2dbf68.css",
-    "static/js/main.84aafa36.js"
+    "static/js/main.1294bee6.js"
   ]
 }
