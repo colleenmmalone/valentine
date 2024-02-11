@@ -6,7 +6,7 @@ function Yes({ counter }) {
 
   return (
     <div className='flex flex-col'>
-      <img src={heart} style={{ width: '250px' }} />
+      <img src={heart} style={{ width: '250px' }} alt={'heart xoxo'} />
       <h1>yayyyyyy 😘</h1>
       {counter > 0 ? <p className='no-counter'>but you clicked no {counter} times :( </p> : <></>} <p></p>
     </div>

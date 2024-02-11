@@ -11,7 +11,7 @@ function App() {
     <>
       <div className='flex flex-col app'>
         <div id='view' className='flex flex-col'>
-          <img src={heart} style={{ width: '250px' }} />
+          <img src={heart} style={{ width: '250px' }} alt={'heart be mine'} />
           <input type="text" placeholder='What do I call you?' id='nameInput' value={name} onChange={e => setName(e.target.value)} />
           <button
             onClick={() => {

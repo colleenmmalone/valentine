@@ -23,7 +23,7 @@ function Question({ name = '' }) {
 
   return (
     <div id="content">
-      <img src={heart} style={{ width: '250px' }} />
+      <img src={heart} style={{ width: '250px' }} alt={'ur a qt'} />
       <p>{name === '' ? 'W' : `${name}, w`}ill you be my valentine?</p>
       <div className='flex'>
 
